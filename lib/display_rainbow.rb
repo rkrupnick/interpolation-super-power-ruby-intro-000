@@ -9,4 +9,3 @@ def display_rainbow(colors)
   puts letters[5] + ":" + colors[5]
   puts letters[6] + ":" + colors[6]
 end
-
