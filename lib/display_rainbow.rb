@@ -2,7 +2,7 @@
 def display_rainbow(colors)
   letters = ["R", "O", "Y", "G", "B", "I", "V"]
   i = 0
-  while i < letters.length
+  while i < letters.length do
     puts letters[i] + ":" + colors[i]
     i++
   end
