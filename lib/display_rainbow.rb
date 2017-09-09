@@ -1,5 +1,7 @@
 # Write your #display_rainbow method here
-letters = ["R", "O", "Y", "G", "B", "I", "V"]
 def display_rainbow(colors)
-  puts colors
+  letters = ["R", "O", "Y", "G", "B", "I", "V"]
+  for (i = 0; i<letters.length; i++)
+    puts letters[i] + ":" + colors[i]
+  end
 end
